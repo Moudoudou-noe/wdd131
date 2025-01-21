@@ -106,3 +106,10 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
 }
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+        text-align: center;
+    }
+}
+
