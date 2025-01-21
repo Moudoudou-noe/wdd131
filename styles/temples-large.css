@@ -1,0 +1,14 @@
+/* Larger View */
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-links li {
+    margin: 0;
+}
