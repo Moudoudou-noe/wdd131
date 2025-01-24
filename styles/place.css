@@ -2,10 +2,9 @@
 :root {
     --primary-color: #008000; /* Green color for Congo Brazzaville */
     --secondary-color: #ff0000; /* Red color */
-    --font-family: 'Roboto', sans-serif;
 }
 body {
-    font-family: var(--font-family);
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -43,6 +42,13 @@ section {
     transition: transform 0.3s ease-in-out;
     justify-content: center;
 }
+
+.weather .climate .forecast h2::after {
+    content: ' ⛅';    
+    font-size: 1.5rem;    
+    margin-left: 10px;   
+    color: var(--primary-color);
+    }
 
 section:hover {
     transform: translateY(-5px);
