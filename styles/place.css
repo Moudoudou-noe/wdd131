@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/VRAI\ NOE.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.header {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+.info-section, .weather-section {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+.info-section {
+    margin-top: 40px;
+}
+.info-table, .weather-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.info-table td, .weather-table td {
+    padding: 10px;
+}
+.table-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
