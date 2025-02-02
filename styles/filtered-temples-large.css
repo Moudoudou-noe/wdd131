@@ -1,0 +1,26 @@
+/* Large screen styles */
+@media (min-width: 768px) {
+    nav {
+        justify-content: center;
+    }
+    
+    #hamburger {
+        display: none;
+    }
+    
+    #nav-links {
+        display: flex;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    figure {
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    figure:hover {
+        transform: scale(1.05);
+    }
+}
