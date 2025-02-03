@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Product Review Form">
     <meta name="author" content="MOUDOUDOU">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Product Review Form</title>
     <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js"></script>
 </head>
 <body>
 
     <div class="container">
         <h1>Product Review Form</h1>
         <form action="review.html" method="get">
-
             <!-- Product Name Selection -->
             <label for="product">Product Name:</label>
             <select id="product" name="product" required>
@@ -52,10 +53,8 @@
             <input type="text" id="username" name="username">
 
             <!-- Submit Button -->
-            <input type="submit" value="Submit Review">
+            <button type="submit">Submit Review</button>
         </form>
     </div>
-
-    <script src="scripts/form.js"></script>
 </body>
 </html>

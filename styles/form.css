@@ -40,7 +40,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 5px;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: #ffb300;
     color: white;
     font-size: 16px;
