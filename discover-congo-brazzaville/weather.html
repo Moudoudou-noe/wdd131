@@ -1,0 +1,48 @@
+<!--(Real-time Weather Updates)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Weather - Discover Congo Brazzaville">
+    <meta name="author" content="moudoudou">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Weather - Discover Congo Brazzaville</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html" class="active">Attractions</a></li>
+                <li><a href="cuisine.html">Cuisine</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="weather.html">Real-time</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="weather-section">
+            <h1>Weather in Congo Brazzaville</h1>
+            <div id="weather-details">
+                <p id="location">Location: Loading...</p>
+                <p id="temperature">Temperature: Loading...</p>
+                <p id="description">Weather: Loading...</p>
+                <p id="humidity">Humidity: Loading...</p>
+                <p id="wind-speed">Wind Speed: Loading...</p>
+            </div>
+            <button id="get-weather">Get Weather</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Discover Congo Brazzaville</p>
+    </footer>
+
+    <script src="./js/weather.js"></script>
+</body>
+</html>
